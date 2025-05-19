@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import matplotlib.pyplot as plt 
 # URLs de los archivos CSV
- clientes_url = "https://raw.githubusercontent.com/MLeiva123/Dashboard-Chocolate-Export/main/clientes.csv"
+clientes_url = "https://raw.githubusercontent.com/MLeiva123/Dashboard-Chocolate-Export/main/clientes.csv"
 mercados_url = "https://raw.githubusercontent.com/MLeiva123/Dashboard-Chocolate-Export/main/mercados.csv" 
 exportaciones_url = "https://raw.githubusercontent.com/MLeiva123/Dashboard-Chocolate-Export/main/exportaciones.csv" 
 barreras_url = "https://raw.githubusercontent.com/MLeiva123/Dashboard-Chocolate-Export/main/barreras.csv" 
