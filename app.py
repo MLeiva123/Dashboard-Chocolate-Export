@@ -1,4 +1,4 @@
-``` import streamlit as st import pandas as pd import matplotlib.pyplot as plt 
+import streamlit as st import pandas as pd import matplotlib.pyplot as plt 
 # URLs de los archivos CSV
  clientes_url = "https://raw.githubusercontent.com/MLeiva123/Dashboard-Chocolate-Export/main/clientes.csv"
 mercados_url = "https://raw.githubusercontent.com/MLeiva123/Dashboard-Chocolate-Export/main/mercados.csv" 
@@ -40,5 +40,5 @@ st.subheader(" Análisis Comparativo")
  ax2.set_ylabel("Tamaño del Mercado (USD millones)")
  ax2.set_title("Comparación de Tamaños de Mercado") 
 plt.xticks(rotation=45) 
-st.pyplot(fig2) ```
+st.pyplot(fig2) 
 
